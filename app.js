@@ -32,3 +32,6 @@ function getHumanChoice() {
 
   return input;
 }
+
+var humanScore = 0;
+var computerScore = 0;
