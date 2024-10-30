@@ -33,9 +33,11 @@ function playGame() {
 
 	function checkScore(humanScore, computerScore) {
 		if (humanScore == 5) {
-			announcementOutput.textContent = "The player wins!";
+			announcementOutput.textContent =
+				"The player wins! (Refresh the page to play again)";
 		} else if (computerScore == 5) {
-			announcementOutput.textContent = "The computer wins!";
+			announcementOutput.textContent =
+				"The computer wins! (Refresh the page to play again)";
 		}
 	}
 
