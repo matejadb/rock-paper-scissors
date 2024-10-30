@@ -112,21 +112,18 @@ function playGame() {
 	document.body.append(scoreContainer);
 	rockButton.addEventListener("click", () => {
 		const computerChoice = getComputerChoice();
-		console.log(computerChoice);
 		playRound("rock", computerChoice);
 		checkScore(humanScore, computerScore);
 	});
 
 	paperButton.addEventListener("click", () => {
 		const computerChoice = getComputerChoice();
-		console.log(computerChoice);
 		playRound("paper", computerChoice);
 		checkScore(humanScore, computerScore);
 	});
 
 	scissorsButton.addEventListener("click", () => {
 		const computerChoice = getComputerChoice();
-		console.log(computerChoice);
 		playRound("scissors", computerChoice);
 		checkScore(humanScore, computerScore);
 	});
